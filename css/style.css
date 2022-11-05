@@ -124,7 +124,9 @@ table {
 }
 
 .page {
-  background-color: rgb(255, 255, 255);
+  background-image: url(/images/fon.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .title {
   color: rgb(0, 0, 0);
@@ -133,7 +135,6 @@ table {
 }
 .main {
   text-align: center;
-  background-color: rgb(232, 231, 244);
   height: 100px;
 }
 
