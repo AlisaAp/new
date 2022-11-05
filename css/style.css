@@ -1,0 +1,188 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.page {
+  background-color: rgb(255, 255, 255);
+}
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.main {
+  text-align: center;
+  background-color: rgb(232, 231, 244);
+  height: 100px;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgb(74, 74, 161);
+  font-size: 20px;
+}
+
+.content_box {
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  text-align: justify;
+  width: 700px;
+  height: 650px;
+  padding: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  background-color: rgb(232, 231, 244);
+}
+.content {
+  margin-top: 20px;
+}
+.img {
+  width: 700px;
+  height: 540px;
+}
+.img_box {
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_size {
+  height: 750px;
+}
+.header_box {
+  font-size: 0;
+}
+.header_box > p {
+  display: inline;
+  font-size: 16px;
+  width: 300px;
+  padding: 3px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  background-color: white;
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+}
