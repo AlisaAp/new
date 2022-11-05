@@ -124,7 +124,7 @@ table {
 }
 
 .page {
-  background-image: url(/images/fon.jpeg);
+  background-image: url(../images/fon.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
